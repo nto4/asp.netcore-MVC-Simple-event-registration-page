@@ -13,13 +13,18 @@
     <div class="container m-4">
         <div class="card mx-auto" style="width:500px">
             <div class="card-header">
-                @ViewBag.Greeting @ViewBag.Username,  nasılsın ?
-                
+                @ViewBag.Greeting @ViewBag.Message 
             </div>
             <div class="card-body">
-                <p class="card-text">Umarım kurslar faydalı olmuştur
+                <p class="card-text">Etkinlik bilgileri 
 
                 </p>
+                <br>
+                <p class="card-text">Tarih</p>
+                <br>
+                <p class="card-text">Saat</p>
+                <br>
+                <p class="card-text">Konum </p>
                  <a asp-action="apply" asp-controller="course" class="btn btn-primary">Başvuru Yap</a> 
             </div>
         </div>
